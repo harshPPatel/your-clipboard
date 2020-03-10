@@ -1,0 +1,28 @@
+h1 {
+  font-size: 64px;
+  font-weight: 500;
+  margin-bottom: 36px;
+  @media screen and (max-width: 768px) {
+    font-size: 32px;
+    margin-bottom: 24px;
+  }
+  @media screen and (max-width: 368px) {
+    font-size: 28px;
+    margin-bottom: 24px;
+  }
+}
+
+p.kicker {
+  width: 100%;
+  max-width: 650px;
+  margin: 0 auto 42px;
+  line-height: 175%;
+  @media screen and (max-width: 768px) {
+    margin-bottom: 24px;
+  }
+}
+
+p.info {
+  opacity: 0.8;
+  font-style: italic;
+}

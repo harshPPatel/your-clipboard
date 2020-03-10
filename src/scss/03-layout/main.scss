@@ -1,0 +1,16 @@
+main {
+  #content {
+    background-color: rgba(#c4c4c4, 0.25);
+    padding: 21px 28px;
+    max-width: 450px;
+    border-radius: 7px;
+    margin: 0 auto;
+    text-align: left;
+    font-family: 'Anonymous Pro', monospace;
+    line-height: 175%;
+    margin-bottom: 42px;
+    @media screen and (max-width: 768px) {
+      margin-bottom: 16px;
+    }
+  }
+}
