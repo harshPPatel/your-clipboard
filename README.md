@@ -1,3 +1,7 @@
-# starter-kit
+# Your Clipboard
 
-A starter kit for front end projects. Tasks are managed by parcel js which makes easy to work with different languages. Checkout the supported languages and plugins for parcel.js [here](https://parceljs.org/)
+Simple website represents the usage of Browser's Clipboard API. It simply reads the clipboard data and shows to you.
+
+Please note that this website does not store any of your data!
+
+*Author* : Harsh Patel
