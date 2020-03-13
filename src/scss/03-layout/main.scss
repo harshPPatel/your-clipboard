@@ -9,6 +9,7 @@ main {
     font-family: 'Anonymous Pro', monospace;
     line-height: 175%;
     margin-bottom: 42px;
+    overflow-wrap: break-word;
     @media screen and (max-width: 768px) {
       margin-bottom: 16px;
     }

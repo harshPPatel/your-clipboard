@@ -1,4 +1,5 @@
 const targetElement = document.getElementById('content');
+const refreshElement = document.getElementById('refresh');
 
 const getClipData = () => {
   navigator.permissions.query({ name: 'clipboard-read' })
@@ -11,16 +12,19 @@ const getClipData = () => {
           }
           targetElement.innerHTML = text.toString().trim();
         })
-        .catch((err) => {
-          console.log(err);
+        .catch(() => {
           targetElement.innerHTML = 'Oops! Something went wrong 😔.';
         });
     })
-    .catch((err) => {
-      console.log(err);
+    .catch(() => {
       targetElement.innerHTML = 'Oops! Something went wrong 😔.';
     });
 };
+
+refreshElement.addEventListener('click', (e) => {
+  e.preventDefault();
+  window.location.reload();
+});
 
 window.onload = () => {
   window.focus();
